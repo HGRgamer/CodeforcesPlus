@@ -9,6 +9,7 @@ Codeforces is a great platform — but CF Plus makes it **faster and smarter** t
 * Avoid switching tabs to check submissions or tutorials.
 * Resume your auto saved code effortlessly.
 
+https://github.com/user-attachments/assets/b9741052-b3f3-4f76-8667-09de0cbaf56c
 
 ## ✨ Features
 
