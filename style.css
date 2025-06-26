@@ -1,0 +1,80 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cf-tab-header {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.cf-tab-header button {
+  padding: 6px 12px;
+  margin: 5px 0px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  background: #f1f1f1;
+  cursor: pointer;
+}
+
+.cf-tab-header button.active {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+#cf-main-container {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+#cf-left-pane {
+  width: calc(60% - 5px);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#cf-resizer {
+  width: 10px;
+  background: #ccc;
+  cursor: col-resize;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+#cf-right-pane {
+  width: calc(40% - 5px);
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#cf-right-pane textarea {
+  width: 100%;
+}
+
+#cf-right-pane button {
+  padding: 10px;
+}
+
+#toolbar {
+  padding: 10px;
+  background: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+#editor {
+  flex: 1;
+  height: 500px;
+}
+
+.problem-statement{
+  text-align: left;
+}

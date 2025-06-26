@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Codeforces Plus",
+  "version": "1.0",
+  "description": "Smarter Codeforces: Statement, Code Execution, In-page editor, Tutorials, and Submissions — all in one page.",
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://codeforces.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://codeforces.com/problemset/problem/*",
+        "https://codeforces.com/contest/*/problem/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "injected.js"
+      ],
+      "matches": [
+        "https://codeforces.com/*"
+      ]
+    }
+  ]
+}
