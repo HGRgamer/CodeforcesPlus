@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/b9741052-b3f3-4f76-8667-09de0cbaf56c
 
 ### Chrome
 
-* Clone or download this repo.
+* Clone or [download](https://github.com/HGRgamer/CodeforcesPlus/archive/refs/heads/main.zip) this repo and unzip.
 * Visit `chrome://extensions/`
 * Enable **Developer Mode**
 * Click **Load unpacked**
@@ -53,6 +53,7 @@ https://github.com/user-attachments/assets/b9741052-b3f3-4f76-8667-09de0cbaf56c
 If you find this helpful, star the repo and share it with fellow competitive programmers!
 
 Buy me a coffee and help me add it to Chrome Web Store
+
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/kanav67)
 
 ## 📄 Notes
