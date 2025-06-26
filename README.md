@@ -36,14 +36,11 @@ https://github.com/user-attachments/assets/b9741052-b3f3-4f76-8667-09de0cbaf56c
 
 
 ## 🔧 Installation
-
-###  Chrome Web Store (Maybe in future)
-
-### Chrome
+### Chrome/Brave/Edge and other chromium based browsers
 
 * Clone or [download](https://github.com/HGRgamer/CodeforcesPlus/archive/refs/heads/main.zip) this repo and unzip.
 * Visit `chrome://extensions/`
-* Enable **Developer Mode**
+* Enable **Developer Mode** (top right)
 * Click **Load unpacked**
 * Select the extension folder
 * Note: Do not delete the extension folder else the extension will be deleted.
